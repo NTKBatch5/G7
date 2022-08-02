@@ -1,8 +1,16 @@
 package team.g7;
 
+/*
+ * this is a class used to test github stashes , push and pull.
+ * 
+ * 
+ * 
+ */
+
 public class DemoG7 {
 	
 	public static void main(String[] args) {
+		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
 	}
 	
