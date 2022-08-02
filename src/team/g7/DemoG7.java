@@ -1,5 +1,6 @@
 package team.g7;
-
+import java.util.Random;
+import java.util.Scanner;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -421,4 +422,37 @@ public class DemoG7 {
 
 
 
+
+
+
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		Random rand = new Random();
+		
+		int randomNumber = rand.nextInt(100)+1;
+		
+		boolean playerGuessedCorrectly= false; //1 way
+		while (!playerGuessedCorrectly) {	   //1 way
+		
+		// OR 
+		// while(true) { //2 way
+		System.out.println("Enter your guess (1-100):");
+		int playerGuess = scanner.nextInt();
+		
+		if(playerGuess == randomNumber) {
+			System.out.println("Correct! You are one smart MOFO, but it took you long enough!!");
+			//break; // 2 way
+			playerGuessedCorrectly = true; //1 way
+			
+		}
+		else if(randomNumber> playerGuess) {
+			System.out.println("Nope! The number is higher.");
+	
+		}else {
+			System.out.println("Nope! The number is lower.");
+		}
+	}
+}
+}
 
