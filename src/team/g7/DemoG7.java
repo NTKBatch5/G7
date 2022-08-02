@@ -84,19 +84,11 @@ public class DemoG7 {
 			System.out.println("JobID: "+ rs.getString("job_id"));
 			System.out.println("email: "+ rs.getString("email"));
 			System.out.println("----------------------------");
-			
+		}
 
 		// STEP 6 LOOP THROUGH THE RESULTSET OBJECT (RS) AND PRINT COLUMN OR DO ANY
 		// OPERATION / VALIDATION
 
-		while (rs.next()) {
-			System.out.println("FN: " + rs.getString("first_name"));
-			System.out.println("LN: " + rs.getString("last_name"));
-			System.out.println("$$: " + rs.getString("salary"));
-			System.out.println("JobID: " + rs.getString("job_id"));
-			System.out.println("email: " + rs.getString("email"));
-			System.out.println("----------------------------");
-		}
 		while (rs1.next()) {
 			System.out.println("DepartmentID: " + rs1.getString("department_id"));
 			System.out.println("D_name: " + rs1.getString("department_name"));
