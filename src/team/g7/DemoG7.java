@@ -14,6 +14,7 @@ import java.util.HashMap;
  * this is a class used to test github stashes , push and pull.
  * Qamar and Alena practices stashes, push and pull.
  * James did too.
+ * day2- issam: added some comments. practiced pull and push.
  * 
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
@@ -33,15 +34,12 @@ public class DemoG7 {
 		String str2 = reverseWord(var2);
 		System.out.println(str1);
 		System.out.println(str2);
-		
+
 		boolean b1 = isPalindrom("LEVEL");
 		System.out.println(b1);
 		boolean b2 = isPalindrom("sdet");
 		System.out.println(b2);
-		
-		
-		
-		
+
 		System.out.println("**************************************************");
 		System.out.println("****WE********************************************");
 		System.out.println("******Can't***************************************");
@@ -50,9 +48,9 @@ public class DemoG7 {
 		System.out.println("**********************Github**********************");
 		System.out.println("**************************************************");
 		System.out.println("**************************************************");
-		
+
 		System.out.println("**************************************************");
-		
+
 		String url = "jdbc:mysql://localhost:3306";
 		String username = "root";
 		String password = "123456";
@@ -88,16 +86,23 @@ public class DemoG7 {
 			System.out.println("----------------------------");
 			
 
+		// STEP 6 LOOP THROUGH THE RESULTSET OBJECT (RS) AND PRINT COLUMN OR DO ANY
+		// OPERATION / VALIDATION
 
-		}
-		while(rs1.next()) {
-			System.out.println("DepartmentID: "+ rs1.getString("department_id"));
-			System.out.println("D_name: "+ rs1.getString("department_name"));
-			System.out.println("LocationID: "+ rs1.getString("location_id"));
-			
+		while (rs.next()) {
+			System.out.println("FN: " + rs.getString("first_name"));
+			System.out.println("LN: " + rs.getString("last_name"));
+			System.out.println("$$: " + rs.getString("salary"));
+			System.out.println("JobID: " + rs.getString("job_id"));
+			System.out.println("email: " + rs.getString("email"));
 			System.out.println("----------------------------");
-			
-			
+		}
+		while (rs1.next()) {
+			System.out.println("DepartmentID: " + rs1.getString("department_id"));
+			System.out.println("D_name: " + rs1.getString("department_name"));
+			System.out.println("LocationID: " + rs1.getString("location_id"));
+
+			System.out.println("----------------------------");
 		}
 	//stm.executeUpdate(myQuery);
 		
@@ -148,9 +153,6 @@ public class DemoG7 {
 
 	} // close main 
 	
-	
-	
-	
 
 	// this method reverses string word by word
 	public static String reverseWord(String str) {
@@ -172,7 +174,7 @@ public class DemoG7 {
 		result = result.trim();
 		return result;
 	}
-	
+
 	// this method checks if a string is palindrom or not
 	public static boolean isPalindrom(String str1) {
 		boolean result = false;
