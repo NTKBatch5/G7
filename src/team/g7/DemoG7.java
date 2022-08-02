@@ -43,11 +43,11 @@ public class DemoG7 {
 		
 		
 		System.out.println("**************************************************");
-		System.out.println("**************************************************");
-		System.out.println("**************************************************");
-		System.out.println("**************************************************");
-		System.out.println("**************************************************");
-		System.out.println("**************************************************");
+		System.out.println("****WE********************************************");
+		System.out.println("******Can't***************************************");
+		System.out.println("***********forget*********************************");
+		System.out.println("*****************about****************************");
+		System.out.println("**********************Github**********************");
 		System.out.println("**************************************************");
 		System.out.println("**************************************************");
 		
@@ -402,7 +402,7 @@ public class DemoG7 {
 
 		return myMapList;
 	}
-}
+
 /**
  * 		\(*_*)				 _______
  * 		  ) )Z				(  O o  )
@@ -423,7 +423,7 @@ public class DemoG7 {
 
 
 
-
+// guess method
      public static void guess() {
 		
 		Scanner scanner = new Scanner(System.in);
