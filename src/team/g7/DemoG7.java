@@ -24,6 +24,8 @@ public class DemoG7 {
 	
 public static void add(int a, int b) {
 	System.out.println(a+b);
+	
+	System.out.println("G7 Rocks");
 }
 //comment 
 //testing again
