@@ -10,4 +10,11 @@ public class DemoG7 {
 	public static void display() {
 		System.out.println(" team G7 rocks");
 	}
+	
+public static void add(int a, int b) {
+	System.out.println(a+b);
 }
+
+	}
+	
+
