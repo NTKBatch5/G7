@@ -5,7 +5,7 @@ package team.g7;
  * Qamar and Alena practices stashes, push and pull.
  * James did too.
  * 
- * 
+ * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  */
 
 public class DemoG7 {
@@ -15,7 +15,7 @@ public class DemoG7 {
 		System.out.println("Test");
 	}
 	
-// hello team g7
+// hello team g7 ----> THE BEST TEAM IN B7*
 	public static void display() {
 		System.out.println(" team G7 rocks");
 		System.out.println("*************");
@@ -33,6 +33,9 @@ public static void add(int a, int b) {
 	System.out.println("I hope we dont mess this up!!!!!!!!!");
 	
 	System.out.println("While you are all sleeping!!!!");
+	
+	
+	System.out.println("its going to look like a whole new document next time you PULL!");
 	
 }
 //comment 
