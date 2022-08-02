@@ -27,6 +27,7 @@ public static void add(int a, int b) {
 	System.out.println(a+b);
 	
 	System.out.println("G7 Rocks");
+	System.out.println("adam was here");
 }
 //comment 
 //testing again
