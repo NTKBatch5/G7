@@ -45,6 +45,31 @@ public class DemoG7 {
 		result = result.trim();
 		return result;
 	}
+	
+	public static boolean isPrime(int num) {
+		
+		int count=0;
+		
+		boolean result = false;
+		
+		
+		if(num > 1) {
+						
+			for(int i = 1; i <= num; i++) {
+			
+				if(num % i == 0) {
+					
+					count++;
+					
+				}
+			}		
+		}
+		if(count==2) {
+			result = true;
+		}
+		
+		return result;
+	}
 
 // hello team g7 ----> THE BEST TEAM IN B7*
 	public static void display() {
@@ -68,6 +93,7 @@ public class DemoG7 {
 		System.out.println("its going to look like a whole new document next time you PULL!");
 
 	}
+	
 //comment 
 //testing again
 
