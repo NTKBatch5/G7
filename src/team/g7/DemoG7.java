@@ -19,6 +19,7 @@ public class DemoG7 {
 		System.out.println(" team G7 rocks");
 		
 		System.out.println("Rain Rain Go Away");
+		System.out.println ("Java is fun");
 	}
 	
 public static void add(int a, int b) {
