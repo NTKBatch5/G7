@@ -28,6 +28,12 @@ public static void add(int a, int b) {
 	
 	System.out.println("G7 Rocks");
 	System.out.println("adam was here");
+	
+	
+	System.out.println("I hope we dont mess this up!!!!!!!!!");
+	
+	System.out.println("While you are all sleeping!!!!");
+	
 }
 //comment 
 //testing again
