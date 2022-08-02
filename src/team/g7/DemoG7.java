@@ -9,6 +9,9 @@ import java.util.HashMap;
  * James did too.
  * 
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
+ * we didn't forget abdul kareem and ahmad.
+ * 
+ * way to go team G7 !!!!!
  */
 
 public class DemoG7 {
@@ -23,6 +26,68 @@ public class DemoG7 {
 		String str2 = reverseWord(var2);
 		System.out.println(str1);
 		System.out.println(str2);
+		
+		boolean b1 = isPalindrom("LEVEL");
+		System.out.println(b1);
+		boolean b2 = isPalindrom("sdet");
+		System.out.println(b2);
+		
+		
+		
+		
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+		
+		System.out.println("**************************************************");
+		
+		String url = "jdbc:mysql://localhost:3306";
+		String username = "root";
+		String password = "123456";
+		String myQuery = "select * from hr.employees;";
+		String query1 = "select * from hr.departments;";
+		
+		// STEP 1 MAKE SURE WE HAVE THE DATABASE DEPENDENCY IN THE POM.XML FILE
+		
+		// STEP 2 LOAD THE DRIVER
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		// STEP 3 CREATE A CONNECTION WITH DATABASE
+		Connection con = DriverManager.getConnection(url, username, password);
+		
+		// STEP 4 CREATE A STATEMENT OBJECT
+		// STATEMENT OBJECT ALLOWS US TO PERFORM DATABASE OPERATIONS (INSERT, SELECT, DELETE, UPDATE)
+		Statement stm = con.createStatement();
+		Statement stm2 = con.createStatement();
+		
+		// STEP 5 EXECUTE THE QUERY AND STORE THE RESULT IN RESULTSET OBJECT
+		
+		ResultSet rs = stm.executeQuery(myQuery);
+		ResultSet rs1 = stm2.executeQuery(query1);
+		
+		// STEP 6 LOOP THROUGH THE RESULTSET OBJECT (RS) AND PRINT COLUMN OR DO ANY OPERATION / VALIDATION
+		
+		while(rs.next()) {
+			System.out.println("FN: "+ rs.getString("first_name"));
+			System.out.println("LN: "+ rs.getString("last_name"));
+			System.out.println("$$: "+ rs.getString("salary"));
+			System.out.println("JobID: "+ rs.getString("job_id"));
+			System.out.println("email: "+ rs.getString("email"));
+			System.out.println("----------------------------");
+			
+
+
+		}
+		
+		
+		
+		
+		
 	}
 
 	// this method reverses string word by word
@@ -45,6 +110,20 @@ public class DemoG7 {
 		result = result.trim();
 		return result;
 	}
+	
+	public static boolean isPalindrom(String str1) {
+		boolean result = false;
+		String reverse = "";
+		char[] cha = str1.toCharArray();
+		for (int i = cha.length - 1; i >= 0; i--) {
+			reverse = reverse + cha[i];
+		}
+		if (str1.equals(reverse)) {
+			result = true;
+		}
+		return result;
+	}
+	
 	
 	public static boolean isPrime(int num) {
 		
