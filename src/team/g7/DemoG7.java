@@ -1,6 +1,12 @@
 package team.g7;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 
 /*
@@ -16,7 +22,7 @@ import java.util.HashMap;
 
 public class DemoG7 {
 	// main method
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
 
@@ -83,12 +89,67 @@ public class DemoG7 {
 
 
 		}
+		while(rs1.next()) {
+			System.out.println("DepartmentID: "+ rs1.getString("department_id"));
+			System.out.println("D_name: "+ rs1.getString("department_name"));
+			System.out.println("LocationID: "+ rs1.getString("location_id"));
+			
+			System.out.println("----------------------------");
+			
+			
+		}
+	//stm.executeUpdate(myQuery);
 		
+		// STep 7 CLOSE CONNECTION WITH RS, STM, CON
 		
+		con.close();
+		stm.close();
+		rs.close();
+		rs1.close();
 		
+		System.out.println("***********************************************************");
 		
-		
-	}
+		int [] test = {5,8,9,15,7,4,1};
+        int [] test1 = {5,8,9,1,7,4,1};
+        String [] test2 = {"muhammad", "", "issam", "ehtesham" };
+        DemoG7 obj = new DemoG7();
+        boolean b11 = obj.findPeak(test);
+        boolean b22 = obj.findPeak(test1);
+        String str = obj.findLongest(test2);
+        System.out.println("before reversing: " + Arrays.toString(test)  + "\n");
+        System.out.println("after reversing: "+obj.reverseArray(test) + "\n");
+        System.out.println(b11+"\n");
+        System.out.println(b22+"\n");
+        System.out.println(str+"\n");
+        System.out.println(obj.avgMinSmallValue(test)+ "\n");
+        System.out.println(obj.diflargeSmall(test) + "\n");
+        System.out.println(obj.diflargeSmall(test1) + "\n");
+        String str11 = "1234321";
+        String str21 = "1254321";
+        boolean b3 = obj.isPolyndrom(str11);
+        boolean b4 = obj.isPolyndrom(str21);
+        System.out.println(b3+ "\n");
+        System.out.println(b4+ "\n");
+        String date = "7/27/2022/";
+        String date1 = "a/27/2022";
+        boolean b5 =  obj.checkDate(date);
+        boolean b6 =  obj.checkDate(date1);
+        
+        System.out.println(date + " "+ b5);
+        System.out.println(date1 + " " +b6+ "\n");
+        boolean b7 =  obj.checkDate1(date);
+        boolean b8 =  obj.checkDate1(date1);
+        
+        System.out.println(date + " "+ b7);
+        System.out.println(date1 + " " +b8+ "\n");
+        
+        
+
+	} // close main 
+	
+	
+	
+	
 
 	// this method reverses string word by word
 	public static String reverseWord(String str) {
@@ -111,6 +172,7 @@ public class DemoG7 {
 		return result;
 	}
 	
+	// this method checks if a string is palindrom or not
 	public static boolean isPalindrom(String str1) {
 		boolean result = false;
 		String reverse = "";
@@ -124,7 +186,7 @@ public class DemoG7 {
 		return result;
 	}
 	
-	
+	// this method checks if a number is prime or not
 	public static boolean isPrime(int num) {
 		
 		int count=0;
@@ -149,6 +211,149 @@ public class DemoG7 {
 		
 		return result;
 	}
+	
+	
+    
+    public boolean checkDate1(String date){
+        // check if a date is supplied is in the corect format and it is going to be a String . date should be separated by / like 7/27/2022 and first character needs to a number and within the range of 1-12
+            // and for days , it should be within 1-31 and years needs to be a number.
+            // 7 / 27 / 2022
+            int count =0;
+            for (int i =0 ; i < date.length() ; i ++){
+                if (date.charAt(i) == '/'){
+                    count++;
+                }
+            }
+            if (count != 2){
+                return false;
+            }
+            String [] arr = date.split("/");
+            int num =0;
+            for (int i = 0 ; i <arr.length; i++){
+               try{
+                   num =  Integer.valueOf(arr[i]);
+               }
+               catch(NumberFormatException nFe) {
+                   return false;
+               }
+               if (i == 0 && !(num >0 && num < 13)) {
+                   return false;
+               }
+               if (i==1 && !(num > 0 && num < 32)) {
+                   return false;
+               }
+            }
+            
+        return true;
+    }
+    public boolean checkDate(String date){
+        // check if a date is supplied is in the correct format and it is going to be a String . date should be separated by / like 7/27/2022 and first character needs to be a number and within the range of 1-12
+            //  for days , it should be within 1-31 and years needs to be a number.
+            // 7 / 27 / 2022
+            
+            String [] arr = date.split("/");
+            //System.out.println(Arrays.toString(arr));
+            if (arr.length != 3){
+                return false;
+            }
+            int num =0;
+            for (int i = 0 ; i <arr.length; i++){
+               try{
+                   num =  Integer.valueOf(arr[i]);
+               }
+               catch(NumberFormatException nFe) {
+                   return false;
+               }
+               if (i == 0 && !(num >0 && num < 13)) {
+                   return false;
+               }
+               if (i==1 && !(num > 0 && num < 32)) {
+                   return false;
+               }
+            }
+            
+        return true;
+    }
+    boolean isPolyndrom(String str){
+        boolean result = true;
+        for (int i=0 ; i < str.length(); i++){
+            if (str.charAt(i)!= str.charAt(str.length()-1-i)){
+                result =false;
+            }
+        }
+        return result;
+    }
+    ArrayList<Integer> reverseArray(int [] nums){
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = nums.length-1 ; i >= 0 ; i-- ){
+            list.add(nums[i]);
+        }
+        return list;
+    }
+    int [] reverseArray1(int [] nums){
+        int arr [] = new int [nums.length];
+        int j = 0;
+        for (int i = nums.length-1 ; i >= 0; i --){
+            arr[j] = nums[i];
+            j++;
+        }
+        return arr;
+    }
+    
+    boolean findPeak(int [] arr){
+        int max =arr[0];
+        int len = arr.length;
+        for (int i =0 ; i< len ; i++){
+            if (arr[i] > max){
+                max = arr[i];
+                }
+            }
+            if (max == arr[len/2]){
+                return true;
+            }
+        return false;
+    }
+    
+    String findLongest(String [] str){
+        String max ="";
+        for (int i = 0 ; i < str.length; i++){
+            if (str[i].length() > max.length()){
+                max = str[i];
+            }
+        }
+        return max;
+    }
+    
+    int avgMinSmallValue(int [] arr){
+        int sum =0;
+        int avg = 0;
+        int small = arr[0];
+        int len = arr.length;
+        for (int i = 0 ; i < arr.length; i ++){
+            sum+=arr[i];
+            if (arr[i] < small){
+                small = arr[i];
+            }
+        }
+        avg = sum / len;
+        int avgMinSmall = avg - small;
+        return avgMinSmall;
+    }
+    
+    int diflargeSmall(int [] arr){
+        int max = arr[0];
+        int min = arr[1];
+        for (int i = 0 ; i < arr.length; i++) {
+            if (arr[i] > max){
+                max = arr[i];
+            }
+            if (arr[i] < min){
+                min = arr[i];
+            }
+        }
+        int diff = max - min ;
+        return diff;
+}
 
 // hello team g7 ----> THE BEST TEAM IN B7*
 	public static void display() {
