@@ -1,5 +1,8 @@
 package team.g7;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /*
  * this is a class used to test github stashes , push and pull.
  * Qamar and Alena practices stashes, push and pull.
@@ -40,6 +43,27 @@ public static void add(int a, int b) {
 }
 //comment 
 //testing again
+
+//printing java loving messages
+	public static void print() {
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		System.out.println("we are java lovers");
+		
+	}
+	
+	public HashMap<String, String> reverse(ArrayList<String> list){
+		HashMap<String, String> myMapList = new HashMap<>();
+		
+		// to do 
+		
+		return myMapList;
+	}
 	}
 	
 
