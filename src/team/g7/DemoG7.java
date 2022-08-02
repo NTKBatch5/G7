@@ -424,7 +424,7 @@ public class DemoG7 {
 
 
 
-
+     public static void guess() {
 		
 		Scanner scanner = new Scanner(System.in);
 		
