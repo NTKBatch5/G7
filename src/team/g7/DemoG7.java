@@ -45,6 +45,7 @@ import java.util.HashMap;
 public class DemoG7 {
 	
 	//James first push
+	//James second push
 	// main method
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		System.out.println("G7 team is testing github....");
