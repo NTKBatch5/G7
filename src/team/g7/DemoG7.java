@@ -15,10 +15,10 @@ import java.util.HashMap;
 
 /*
  * this team is wonderful.........
- * this is a class used to test github stashes , push and pull.
+ * this is a class used to test github stashes , push and pull.....
  * Qamar and Alena practices stashes, push and pull.
- * James did too.
- * day2- issam: added some comments. practiced pull and push.
+ * James did too.....
+ * day2- issam: added some comments. practiced pull and push.......
  * added comment
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
