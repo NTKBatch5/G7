@@ -15,10 +15,10 @@ import java.util.HashMap;
 
 /*
  * this team is wonderful.........
- * this is a class used to test github stashes , push and pull.
+ * this is a class used to test github stashes , push and pull.....
  * Qamar and Alena practices stashes, push and pull.
- * James did too.
- * day2- issam: added some comments. practiced pull and push.
+ * James did too.....
+ * day2- issam: added some comments. practiced pull and push.......
  * added comment
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
@@ -26,7 +26,7 @@ import java.util.HashMap;
  * 8/2/22 abdulKareem practiced stash pull push .
  * 8/3/22 AQamar practices some stash pull and push.
  *8/3/22 ahmad practiced some pull push
- * hello
+ * hello........
  * way to go team G7 !!!!!
  */
 // hello
@@ -74,6 +74,18 @@ public class DemoG7 {
 
 		System.out.println("**************************************************");
 
+		
+		
+		System.out.println("**************************************************");
+		System.out.println("****WE********************************************");
+		System.out.println("******Can't***************************************");
+		System.out.println("***********forget*********************************");
+		System.out.println("*****************about****************************");
+		System.out.println("**********************Github**********************");
+		System.out.println("**************************************************");
+		System.out.println("**************************************************");
+
+		System.out.println("**************************************************");
 		String url = "jdbc:mysql://localhost:3306";
 		String username = "root";
 		String password = "123456";
