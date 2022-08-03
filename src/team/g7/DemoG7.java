@@ -388,6 +388,13 @@ public class DemoG7 {
 
 	}
 	
+	
+	public class Main {
+		  static void myMethod() {
+		    System.out.println("Github + eClips = fun...!");
+		  }
+
+		
 //comment 
 //testing again
 
