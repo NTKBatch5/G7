@@ -528,3 +528,12 @@ public class DemoG7 {
 }
 }
 
+int a = 7;
+int b = 3;
+int c = 15;
+
+int x =	Math.max(a, b); 
+Math.max(x, c);
+int y = Math.max(x, c);
+System.out.println("The Greates Num: "+ y);
+}
