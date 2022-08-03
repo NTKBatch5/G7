@@ -29,6 +29,7 @@ import java.util.HashMap;
  * way to go team G7 !!!!!
  */
 
+//added before abdul
 //hello again 
 //test
 //adam added comment
@@ -520,5 +521,26 @@ public class DemoG7 {
 	}
 }
 
+	
+	int [] x = { 1,2,3,4,5};
+	
+	int sum = 0;
+	for(int i =0; i<x.length; i++) {
+	sum = sum + x[i];
+	System.out.println(sum);
+	}
+	
+	sum = sum / x.length;
+	System.out.println(sum);
+}
 }
 
+int a = 7;
+int b = 3;
+int c = 15;
+
+int x =	Math.max(a, b); 
+Math.max(x, c);
+int y = Math.max(x, c);
+System.out.println("The Greates Num: "+ y);
+}
