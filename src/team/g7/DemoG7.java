@@ -491,7 +491,20 @@ public class DemoG7 {
 	System.out.println(num); //this is an example of Compile TIme Exception
 	String name = null;
 	System.out.println(name.length()); //the compiler will not know if this line will fail/pass
+		
 	}
+
+	public class G7Class {
+	public static void main(String[] args) {
+		System.out.println("FirstName: John");
+		System.out.println("LastName: Cena");
+	}
+		
+		//Added
+		public static void divide(int x, int y){
+		System.out.println(x/y);
+	}
+}
 
 }
 
