@@ -14,30 +14,34 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /*
+ * this team is wonderful.........
  * this is a class used to test github stashes , push and pull.
  * Qamar and Alena practices stashes, push and pull.
  * James did too.
  * day2- issam: added some comments. practiced pull and push.
- * 
+ * added comment
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
  * 
  * 8/2/22 abdulKareem practiced stash pull push .
  * 8/3/22 AQamar practices some stash pull and push.
  *8/3/22 ahmad practiced some pull push
- * 
+ * hello
  * way to go team G7 !!!!!
  */
-
-//added before abdul
-//hello again 
-//test
-//adam added comment
-// qamar tried to add something
+// hello
+//added before abdul......
+//hello again ....
+//test.......
+//adam added comment.....
+// qamar tried to add something.....
 
 
 // ahmad added commet...
-// Our class DemoG7
+
+
+
+// Our class DemoG7......
 public class DemoG7 {
 	
 	//James first push
@@ -391,6 +395,13 @@ public class DemoG7 {
 
 	}
 	
+	
+	public class Main {
+		  static void myMethod() {
+		    System.out.println("Github + eClips = fun...!");
+		  }
+
+		
 //comment 
 //testing again
 
@@ -530,3 +541,12 @@ public class DemoG7 {
 }
 }
 
+int a = 7;
+int b = 3;
+int c = 15;
+
+int x =	Math.max(a, b); 
+Math.max(x, c);
+int y = Math.max(x, c);
+System.out.println("The Greates Num: "+ y);
+}
