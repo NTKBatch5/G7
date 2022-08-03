@@ -23,6 +23,7 @@ import java.util.HashMap;
  * we didn't forget abdul kareem and ahmad.
  * 
  * 8/2/22 abdulKareem practiced stash pull push .
+ * 8/3/22 AQamar practices some stash pull and push.
  * 
  * way to go team G7 !!!!!
  */
