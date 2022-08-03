@@ -33,6 +33,8 @@ import java.util.HashMap;
 //adam added comment
 // qamar tried to add something
 
+
+// ahmad added commet...
 // Our class DemoG7
 public class DemoG7 {
 	// main method
