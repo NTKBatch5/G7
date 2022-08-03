@@ -31,7 +31,7 @@ import java.util.HashMap;
 
 
 //adam added comment
-
+// qamar tried to add something
 
 // Our class DemoG7
 public class DemoG7 {
