@@ -19,9 +19,13 @@ import java.util.HashMap;
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
  * 
+ * 8/2/22 abdulKareem practiced stash pull push .
+ * 
  * way to go team G7 !!!!!
  */
 
+
+// Our class DemoG7
 public class DemoG7 {
 	// main method
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
