@@ -30,6 +30,9 @@ import java.util.HashMap;
  */
 
 
+//adam added comment
+
+
 // Our class DemoG7
 public class DemoG7 {
 	// main method
