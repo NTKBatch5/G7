@@ -514,5 +514,17 @@ public class DemoG7 {
 	}
 }
 
+	
+	int [] x = { 1,2,3,4,5};
+	
+	int sum = 0;
+	for(int i =0; i<x.length; i++) {
+	sum = sum + x[i];
+	System.out.println(sum);
+	}
+	
+	sum = sum / x.length;
+	System.out.println(sum);
+}
 }
 
