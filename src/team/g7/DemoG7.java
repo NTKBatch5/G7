@@ -1,6 +1,9 @@
 package team.g7;
 import java.util.Random;
 import java.util.Scanner;
+
+import com.noorteck.java.day31.Calculator;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -465,5 +468,29 @@ public class DemoG7 {
 		}
 		return result;
 	}
+	public void add (int a, int b, int c) {
+		System.out.println(a+b+c);
+}
+	public void add (double a, int b, String c) {
+	System.out.println(a);
+	System.out.println(b);
+	System.out. println(c);
+	}
+	public static void main (String[] args) {
+		Calculator obj = new Calculator() ;
+	
+	
+	obj.add(2, 4);//it will call add method with 2 parameters
+	obj.add(2, 4, 6); // it will call add method with 3 parameters
+	
+	obj.add (22.22, 111, "Java");
+	
+	int num= 0;
+	
+	System.out.println(num); //this is an example of Compile TIme Exception
+	String name = null;
+	System.out.println(name.length()); //the compiler will not know if this line will fail/pass
+	}
+
 }
 
