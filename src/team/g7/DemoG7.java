@@ -448,5 +448,18 @@ public class DemoG7 {
 		}
 	}
 }
+
+
+
+	int [] ary = {1,2,3,4,5}; 
+
+	public static int getSum(int [] a) {
+		int result = 0;
+		for(int i = 0; i<a.length; i++) {
+			result = a[i];
+			System.out.println("get Sum: " + result );
+		}
+		return result;
+	}
 }
 
