@@ -30,15 +30,18 @@ import java.util.HashMap;
  * way to go team G7 !!!!!
  */
 // hello
-//added before abdul
-//hello again 
-//test
-//adam added comment
-// qamar tried to add something
+//added before abdul......
+//hello again ....
+//test.......
+//adam added comment.....
+// qamar tried to add something.....
 
 
 // ahmad added commet...
-// Our class DemoG7
+
+
+
+// Our class DemoG7......
 public class DemoG7 {
 	// main method
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
