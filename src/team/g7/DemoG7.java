@@ -50,6 +50,11 @@ public class DemoG7 {
 		String myQuery = "select * from hr.employees;";
 		String query1 = "select * from hr.departments;";
 	}
+	// method displays test message
+	public void display() {
+		System.out.println("test github");
+		
+	}
 }
 	
 
