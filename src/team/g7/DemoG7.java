@@ -12,6 +12,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+<<<<<<< HEAD
 // trying to push
 /*
 
@@ -50,18 +51,6 @@ import java.util.HashMap;
 // new push
 
 
-// ahmad added commet...
-// try to push
-
-///G7 trying to break the code...
-
-//tryin to break
-// hello
-
-
-// Our class DemoG7......
-
-// Our class DemoG7
 
 public class DemoG7 {
 	
