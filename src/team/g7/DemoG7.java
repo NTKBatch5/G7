@@ -15,7 +15,7 @@ public class DemoG7 {
 		System.out.println(str2);
 
 		// hello hello comments
-		//
+		//adding comment
 
 
 		//boolean b1 = isPalindrom("LEVEL");
