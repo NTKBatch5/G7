@@ -13,6 +13,11 @@ public class DemoG7 {
 		//String str2 = reverseWord(var2);
 		System.out.println(str1);
 		System.out.println(str2);
+
+		// hello hello comments
+		//adding comment
+
+
 		//boolean b1 = isPalindrom("LEVEL");
 		System.out.println(b1);
 		//boolean b2 = isPalindrom("sdet");
