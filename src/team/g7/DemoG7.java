@@ -1,9 +1,6 @@
 package team.g7;
 
 
-
-// we have to practice more
-// this is our class.
 public class DemoG7 {
 	
 	public static void main(String[] args) {
@@ -57,6 +54,11 @@ public class DemoG7 {
 		
 		// GOOD NIght
 		
+		
+	}
+	// method displays test message
+	public void display() {
+		System.out.println("test github");
 		
 	}
 }
