@@ -79,14 +79,14 @@ public class DemoG7 {
 
 		String var = " JAva IS LOVELY, github is fun too ";
 		String var2 = " SDET sdet sdet";
-		String str1 = reverseWord(var);
-		String str2 = reverseWord(var2);
+		//String str1 = reverseWord(var);
+		//String str2 = reverseWord(var2);
 		System.out.println(str1);
 		System.out.println(str2);
 
-		boolean b1 = isPalindrom("LEVEL");
+		//boolean b1 = isPalindrom("LEVEL");
 		System.out.println(b1);
-		boolean b2 = isPalindrom("sdet");
+		//boolean b2 = isPalindrom("sdet");
 		System.out.println(b2);
 
 		System.out.println("**************************************************");
