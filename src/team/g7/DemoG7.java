@@ -50,6 +50,8 @@ public class DemoG7 {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
+		
+		System.out.println("JAMES");
 
 		String var = " JAva IS LOVELY";
 		String var2 = " SDET sdet sdet";
@@ -131,6 +133,7 @@ public class DemoG7 {
 
 			System.out.println("----------------------------");
 		}
+		
 	//stm.executeUpdate(myQuery);
 		
 		// STep 7 CLOSE CONNECTION WITH RS, STM, CON
