@@ -14,30 +14,29 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /*
- * this is a class used to test github stashes , push and pull.
+ * this team is wonderful.........
+ * this is a class used to test github stashes , push and pull.....
  * Qamar and Alena practices stashes, push and pull.
- * James did too.
- * day2- issam: added some comments. practiced pull and push.
- * 
+ * James did too.....
+ * day2- issam: added some comments. practiced pull and push.......
+ * added comment
  * DONT FORGET ADAM, ISAAM, AND ABDULMOSIN!!!!!!
  * we didn't forget abdul kareem and ahmad.
  * 
  * 8/2/22 abdulKareem practiced stash pull push .
  * 8/3/22 AQamar practices some stash pull and push.
  *8/3/22 ahmad practiced some pull push
- * 
+ * hello
  * way to go team G7 !!!!!
  */
-//Lets break it !!!!
-//added before abdul
-//hello again 
-//test
-//adam added comment
-// qamar tried to add something
+
 
 
 // ahmad added commet...
-// Our class DemoG7
+///G7 trying to break the code...
+
+
+// Our class DemoG7......
 public class DemoG7 {
 	// main method
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
