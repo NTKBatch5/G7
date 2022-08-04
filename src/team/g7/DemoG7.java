@@ -15,6 +15,7 @@ public class DemoG7 {
 		//String str2 = reverseWord(var2);
 		System.out.println(str1);
 		System.out.println(str2);
+		// hello hello comments
 
 		//boolean b1 = isPalindrom("LEVEL");
 		System.out.println(b1);
