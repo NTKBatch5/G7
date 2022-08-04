@@ -2,7 +2,7 @@ package team.g7;
 import java.util.Random;
 import java.util.Scanner;
 
-import com.noorteck.java.day31.Calculator;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -55,17 +55,14 @@ import java.util.HashMap;
 //qamar tried to add something.....
 
 
-<<<<<<< HEAD
-// ahmad added commet...
-// try to push
-=======
+
 //ahmad added commet...
 
 ///G7 trying to break the code...
 
 //tryin to break
 
->>>>>>> branch 'master' of https://github.com/NTKBatch5/G7.git
+
 
 // Our class DemoG7......
 public class DemoG7 {
@@ -538,22 +535,11 @@ public class DemoG7 {
 	System.out.println(b);
 	System.out. println(c);
 	}
-	public static void main (String[] args) {
-		Calculator obj = new Calculator() ;
 	
 	
-	obj.add(2, 4);//it will call add method with 2 parameters
-	obj.add(2, 4, 6); // it will call add method with 3 parameters
 	
-	obj.add (22.22, 111, "Java");
 	
-	int num= 0;
-	
-	System.out.println(num); //this is an example of Compile TIme Exception
-	String name = null;
-	System.out.println(name.length()); //the compiler will not know if this line will fail/pass
-		
-	}
+
 
 	public class G7Class {
 	public static void main(String[] args) {
@@ -568,25 +554,4 @@ public class DemoG7 {
 }
 
 	
-	int [] x = { 1,2,3,4,5};
-	
-	int sum = 0;
-	for(int i =0; i<x.length; i++) {
-	sum = sum + x[i];
-	System.out.println(sum);
-	}
-	
-	sum = sum / x.length;
-	System.out.println(sum);
-}
-}
 
-int a = 7;
-int b = 3;
-int c = 15;
-
-int x =	Math.max(a, b); 
-Math.max(x, c);
-int y = Math.max(x, c);
-System.out.println("The Greates Num: "+ y);
-}
