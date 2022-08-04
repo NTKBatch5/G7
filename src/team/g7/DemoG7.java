@@ -1,6 +1,6 @@
 package team.g7;
 
-
+// this is our class.
 public class DemoG7 {
 	
 	public static void main(String[] args) {
