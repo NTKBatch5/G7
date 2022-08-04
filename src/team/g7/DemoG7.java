@@ -47,13 +47,6 @@ public class DemoG7 {
 		String password = "123456";
 		String myQuery = "select * from hr.employees;";
 		String query1 = "select * from hr.departments;";
-		
-		
-		System.out.println("James Code");
-		
-		
-		
-		
 	}
 }
 	
