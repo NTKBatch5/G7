@@ -32,6 +32,7 @@ public class DemoG7 {
 
 		//add comment adding more
 		// add add add add
+		// delkete delete
 		
 		System.out.println("**************************************************");
 		System.out.println("****WE********************************************");
