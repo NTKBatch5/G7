@@ -65,6 +65,8 @@ import java.util.HashMap;
 
 
 // Our class DemoG7......
+
+// Our class DemoG7
 public class DemoG7 {
 	
 	//James first push
