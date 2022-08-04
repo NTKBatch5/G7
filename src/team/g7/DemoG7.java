@@ -27,7 +27,6 @@ public class DemoG7 {
 		System.out.println("**************************************************");
 		System.out.println("**************************************************");
 
-		//add comment adding more
 		
 		
 		System.out.println("**************************************************");
