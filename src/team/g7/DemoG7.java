@@ -12,7 +12,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-
+// trying to push
 /*
  * this team is wonderful.....................................................
  * this is a class used to test github stashes , push and pull...............
@@ -38,8 +38,7 @@ import java.util.HashMap;
 
 
 // ahmad added commet...
-
-// tryin to break
+// try to push
 
 // Our class DemoG7......
 public class DemoG7 {
@@ -84,7 +83,7 @@ public class DemoG7 {
 		System.out.println("*****************about****************************");
 		System.out.println("**********************Github**********************");
 		System.out.println("**************************************************");
-		System.out.println("**************************************************");
+		System.out.println("**************************************************1111");
 
 		System.out.println("**************************************************");
 		String url = "jdbc:mysql://localhost:3306";
