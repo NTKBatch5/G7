@@ -49,16 +49,10 @@ import java.util.HashMap;
 // qamar tried to add something.....
 // new push
 
-<<<<<<< HEAD
 
-
-//ahmad added commet...
-=======
 // ahmad added commet...
 // try to push
->>>>>>> branch 'master' of https://github.com/NTKBatch5/G7.git
 
-<<<<<<< HEAD
 ///G7 trying to break the code...
 
 //tryin to break
@@ -68,9 +62,7 @@ import java.util.HashMap;
 // Our class DemoG7......
 
 // Our class DemoG7
-=======
-// Our class DemoG7......test
->>>>>>> branch 'master' of https://github.com/NTKBatch5/G7.git
+
 public class DemoG7 {
 	
 	//James first push
