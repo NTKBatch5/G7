@@ -52,7 +52,7 @@ public class DemoG7 {
 		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
 
-		String var = " JAva IS LOVELY";
+		String var = " JAva IS LOVELY, github is fun too ";
 		String var2 = " SDET sdet sdet";
 		String str1 = reverseWord(var);
 		String str2 = reverseWord(var2);
