@@ -1,7 +1,7 @@
 package team.g7;
 
 
-
+// 8/7/22 by masssik84 trying to stash , pull and push.
 // we have to practice more
 // this is our class.
 public class DemoG7 {
