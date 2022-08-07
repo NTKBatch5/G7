@@ -6,6 +6,11 @@ package team.g7;
 // this is our class.
 public class DemoG7 {
 	
+	// testing using development branch
+	public void test() {
+		System.out.println("testing stash , pull and pull on github");
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
