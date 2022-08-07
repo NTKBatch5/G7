@@ -3,6 +3,11 @@ package team.g7;
 
 public class DemoG7 {
 	
+	// testing using development branch
+	public void test() {
+		System.out.println("testing stash , pull and pull on github");
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("G7 team is testing github....");
 		System.out.println("Test");
@@ -32,7 +37,9 @@ public class DemoG7 {
 		System.out.println("**************************************************");
 		System.out.println("**************************************************");
 
-		
+		//add comment adding more
+		// add add add add
+		// delkete delete
 		
 		System.out.println("**************************************************");
 		System.out.println("****WE********************************************");
